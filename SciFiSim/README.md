@@ -1,6 +1,6 @@
 # SciFiSim
 
-A data-driven city-builder simulation in a sci-fi setting, written in modern C++ with a headless simulation core and a raylib frontend. Build production chains, feed a population that evolves through tiers, and watch the economy react — all driven by editable JSON content with live hot-reload. Also adapted to feature add-ons where every building, population tier and resourse can be added easily in one code line.
+A data-driven city-builder simulation in a sci-fi setting, written in modern C++ with a headless simulation core and a raylib frontend. Build production chains, feed a population that evolves through tiers, and watch the economy react — all driven by editable JSON content with live hot-reload. Also adapted for feature add-ons where every building, population tier and resourse can be added easily in one line of code.
 
 ![demo](docs/SimGamePlay.gif)
 
