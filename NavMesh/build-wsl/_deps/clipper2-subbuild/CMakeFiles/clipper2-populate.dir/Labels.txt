@@ -1,0 +1,14 @@
+# Target labels
+ clipper2-populate
+# Source files and their labels
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/CMakeFiles/clipper2-populate
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/CMakeFiles/clipper2-populate.rule
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/CMakeFiles/clipper2-populate-complete.rule
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/clipper2-populate-prefix/src/clipper2-populate-stamp/clipper2-populate-build.rule
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/clipper2-populate-prefix/src/clipper2-populate-stamp/clipper2-populate-configure.rule
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/clipper2-populate-prefix/src/clipper2-populate-stamp/clipper2-populate-download.rule
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/clipper2-populate-prefix/src/clipper2-populate-stamp/clipper2-populate-install.rule
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/clipper2-populate-prefix/src/clipper2-populate-stamp/clipper2-populate-mkdir.rule
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/clipper2-populate-prefix/src/clipper2-populate-stamp/clipper2-populate-patch.rule
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/clipper2-populate-prefix/src/clipper2-populate-stamp/clipper2-populate-test.rule
+/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-subbuild/clipper2-populate-prefix/src/clipper2-populate-stamp/clipper2-populate-update.rule

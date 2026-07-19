@@ -1,0 +1,21 @@
+# ninja log v7
+96	191	1784486394127214200	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	4a27f4324bced235
+96	191	1784486394127214200	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	4a27f4324bced235
+201	87567	1784486481503581600	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	9c89b5633553a586
+201	87567	1784486481503581600	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	9c89b5633553a586
+87576	87942	1784486481522583800	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	726b572605972082
+87576	87942	1784486481522583800	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	726b572605972082
+87974	88027	1784486481964018600	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	eb6b8887551996c0
+87974	88027	1784486481964018600	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	eb6b8887551996c0
+88036	88089	1784486482026036100	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	2ace5fde27ed8cab
+88036	88089	1784486482026036100	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	2ace5fde27ed8cab
+88099	88151	1784486482088519100	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	7e339dbb4b16bc47
+88099	88151	1784486482088519100	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	7e339dbb4b16bc47
+88161	88215	1784486482151786600	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	db24f57578f44a00
+88161	88215	1784486482151786600	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	db24f57578f44a00
+88225	88279	1784486482216347600	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	a59b18d2999bc0ca
+88225	88279	1784486482216347600	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	a59b18d2999bc0ca
+88288	88367	1784486482304408200	CMakeFiles/raylib-populate-complete	d434540534d8a770
+88288	88367	1784486482304408200	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	d434540534d8a770
+88288	88367	1784486482304408200	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	d434540534d8a770
+88288	88367	1784486482304408200	/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	d434540534d8a770

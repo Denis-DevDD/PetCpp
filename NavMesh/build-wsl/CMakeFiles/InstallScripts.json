@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/cmake_install.cmake",
+		"/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/json-build/cmake_install.cmake",
+		"/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/doctest-build/cmake_install.cmake",
+		"/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-build/cmake_install.cmake",
+		"/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-build/raylib/cmake_install.cmake",
+		"/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-build/raylib/external/glfw/cmake_install.cmake",
+		"/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-build/raylib/external/glfw/src/cmake_install.cmake",
+		"/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/clipper2-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

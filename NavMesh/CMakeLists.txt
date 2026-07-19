@@ -44,11 +44,21 @@ FetchContent_Declare(
   SOURCE_SUBDIR CPP
 )
 
-FetchContent_MakeAvailable(json doctest raylib clipper2)
+# ---- raygui (viewer UI: sliders, checkboxes) ----
+# Header-only; no CMakeLists at the repo root worth building, so we just
+# populate the source and point the viewer target at src/raygui.h.
+FetchContent_Declare(
+  raygui
+  GIT_REPOSITORY https://github.com/raysan5/raygui.git
+  GIT_TAG 4.0
+)
+
+FetchContent_MakeAvailable(json doctest raylib clipper2 raygui)
 
 # ---- nav: headless core library ----
 add_library(nav STATIC
   src/nav/geometry.cpp
+  src/nav/level.cpp
   src/nav/offset.cpp
   src/nav/triangulate.cpp
   src/nav/mesh.cpp
@@ -67,6 +77,7 @@ add_executable(viewer
   apps/viewer/draw.cpp
   apps/viewer/ui.cpp
 )
+target_include_directories(viewer PRIVATE ${raygui_SOURCE_DIR}/src)
 target_link_libraries(viewer PRIVATE nav raylib)
 
 # ---- bench: headless timing ----
@@ -78,9 +89,11 @@ add_executable(tests
   tests/test_main.cpp
   tests/test_geometry.cpp
   tests/test_triangulate.cpp
+  tests/test_mesh.cpp
   tests/test_astar.cpp
   tests/test_funnel.cpp
 )
+target_include_directories(tests PRIVATE src)
 target_link_libraries(tests PRIVATE nav doctest::doctest)
 
 enable_testing()

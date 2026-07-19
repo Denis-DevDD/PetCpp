@@ -16,7 +16,6 @@ inline Vec2 operator*(float s, Vec2 a) { return {a.x * s, a.y * s}; }
 inline bool operator==(Vec2 a, Vec2 b) { return a.x == b.x && a.y == b.y; }
 
 inline float dot(Vec2 a, Vec2 b) { return a.x * b.x + a.y * b.y; }
-// 2D "cross product": scalar z-component of the 3D cross of (a,0) x (b,0).
 inline float cross(Vec2 a, Vec2 b) { return a.x * b.y - a.y * b.x; }
 inline float length(Vec2 a) { return std::sqrt(dot(a, a)); }
 inline float lengthSq(Vec2 a) { return dot(a, a); }
@@ -30,4 +29,4 @@ constexpr TriId NoTri = -1;
 
 using Path = std::vector<Vec2>;
 
-} // namespace nav
+}
