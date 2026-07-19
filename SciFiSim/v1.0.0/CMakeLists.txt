@@ -23,6 +23,7 @@ FetchContent_MakeAvailable(json)
 
 add_library(sim STATIC
     src/sim/world.cpp
+    src/sim/contentloader.cpp
 )
 target_include_directories(sim PUBLIC include)
 target_link_libraries(sim PUBLIC nlohmann_json::nlohmann_json)

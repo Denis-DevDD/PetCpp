@@ -1,0 +1,60 @@
+{
+  "resources": [
+    { "id": "food",  "name": "Food",  "color": [120, 220, 130] },
+    { "id": "flour", "name": "Flour", "color": [220, 200, 120] }
+  ],
+  "buildings": [
+    {
+      "id": "farm",
+      "name": "Farm",
+      "color": [90, 170, 120],
+      "recipe": { "out": "food", "amount": 5, "period": 2 }
+    },
+    {
+      "id": "mill",
+      "name": "Mill",
+      "color": [180, 150, 90],
+      "recipe": {
+        "out": "flour",
+        "amount": 3,
+        "period": 3,
+        "inputs": [ { "res": "food", "amount": 4 } ]
+      }
+    }
+  ],
+  "population": {
+    "growthThreshold": 70,
+    "declineThreshold": 30,
+    "streakNeeded": 3,
+    "growthBatch": 2,
+    "tiers": [
+      {
+        "id": "laborers",
+        "name": "Laborers",
+        "color": [150, 200, 240],
+        "multiplier": 1000,
+        "needs": [ { "res": "flour", "amount": 1 } ],
+        "upgrade": {
+          "to": "technicians",
+          "satisfactionNeeded": 80,
+          "streakNeeded": 5,
+          "batch": 2,
+          "cost": [ { "res": "food", "amount": 10 } ]
+        }
+      },
+      {
+        "id": "technicians",
+        "name": "Technicians",
+        "color": [230, 180, 250],
+        "multiplier": 1500,
+        "needs": [ { "res": "flour", "amount": 1 }, { "res": "food", "amount": 1 } ],
+        "downgrade": {
+          "to": "laborers",
+          "satisfactionBelow": 25,
+          "streakNeeded": 5,
+          "batch": 2
+        }
+      }
+    ]
+  }
+}

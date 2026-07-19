@@ -283,6 +283,30 @@ apps/game/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/apps/game/main.cpp.s
 .PHONY : apps/game/main.cpp.s
 
+src/sim/contentloader.o: src/sim/contentloader.cpp.o
+.PHONY : src/sim/contentloader.o
+
+# target to build an object file
+src/sim/contentloader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/sim/contentloader.cpp.o
+.PHONY : src/sim/contentloader.cpp.o
+
+src/sim/contentloader.i: src/sim/contentloader.cpp.i
+.PHONY : src/sim/contentloader.i
+
+# target to preprocess a source file
+src/sim/contentloader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/sim/contentloader.cpp.i
+.PHONY : src/sim/contentloader.cpp.i
+
+src/sim/contentloader.s: src/sim/contentloader.cpp.s
+.PHONY : src/sim/contentloader.s
+
+# target to generate assembly for a file
+src/sim/contentloader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sim.dir/build.make CMakeFiles/sim.dir/src/sim/contentloader.cpp.s
+.PHONY : src/sim/contentloader.cpp.s
+
 src/sim/world.o: src/sim/world.cpp.o
 .PHONY : src/sim/world.o
 
@@ -330,6 +354,9 @@ help:
 	@echo "... apps/game/main.o"
 	@echo "... apps/game/main.i"
 	@echo "... apps/game/main.s"
+	@echo "... src/sim/contentloader.o"
+	@echo "... src/sim/contentloader.i"
+	@echo "... src/sim/contentloader.s"
 	@echo "... src/sim/world.o"
 	@echo "... src/sim/world.i"
 	@echo "... src/sim/world.s"

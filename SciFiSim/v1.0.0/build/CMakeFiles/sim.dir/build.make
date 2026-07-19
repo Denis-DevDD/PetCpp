@@ -86,17 +86,33 @@ CMakeFiles/sim.dir/src/sim/world.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/sim/world.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/users/denis/desktop/petcpp/scifisim/v1.0.0/src/sim/world.cpp -o CMakeFiles/sim.dir/src/sim/world.cpp.s
 
+CMakeFiles/sim.dir/src/sim/contentloader.cpp.o: CMakeFiles/sim.dir/flags.make
+CMakeFiles/sim.dir/src/sim/contentloader.cpp.o: /mnt/c/users/denis/desktop/petcpp/scifisim/v1.0.0/src/sim/contentloader.cpp
+CMakeFiles/sim.dir/src/sim/contentloader.cpp.o: CMakeFiles/sim.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/users/denis/desktop/petcpp/scifisim/v1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sim.dir/src/sim/contentloader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sim.dir/src/sim/contentloader.cpp.o -MF CMakeFiles/sim.dir/src/sim/contentloader.cpp.o.d -o CMakeFiles/sim.dir/src/sim/contentloader.cpp.o -c /mnt/c/users/denis/desktop/petcpp/scifisim/v1.0.0/src/sim/contentloader.cpp
+
+CMakeFiles/sim.dir/src/sim/contentloader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sim.dir/src/sim/contentloader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/users/denis/desktop/petcpp/scifisim/v1.0.0/src/sim/contentloader.cpp > CMakeFiles/sim.dir/src/sim/contentloader.cpp.i
+
+CMakeFiles/sim.dir/src/sim/contentloader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sim.dir/src/sim/contentloader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/users/denis/desktop/petcpp/scifisim/v1.0.0/src/sim/contentloader.cpp -o CMakeFiles/sim.dir/src/sim/contentloader.cpp.s
+
 # Object files for target sim
 sim_OBJECTS = \
-"CMakeFiles/sim.dir/src/sim/world.cpp.o"
+"CMakeFiles/sim.dir/src/sim/world.cpp.o" \
+"CMakeFiles/sim.dir/src/sim/contentloader.cpp.o"
 
 # External object files for target sim
 sim_EXTERNAL_OBJECTS =
 
 libsim.a: CMakeFiles/sim.dir/src/sim/world.cpp.o
+libsim.a: CMakeFiles/sim.dir/src/sim/contentloader.cpp.o
 libsim.a: CMakeFiles/sim.dir/build.make
 libsim.a: CMakeFiles/sim.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/users/denis/desktop/petcpp/scifisim/v1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libsim.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/users/denis/desktop/petcpp/scifisim/v1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libsim.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/sim.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sim.dir/link.txt --verbose=$(VERBOSE)
 

@@ -1,2 +1,2 @@
-/usr/bin/ar qc libsim.a CMakeFiles/sim.dir/src/sim/world.cpp.o
+/usr/bin/ar qc libsim.a CMakeFiles/sim.dir/src/sim/world.cpp.o CMakeFiles/sim.dir/src/sim/contentloader.cpp.o
 /usr/bin/ranlib libsim.a

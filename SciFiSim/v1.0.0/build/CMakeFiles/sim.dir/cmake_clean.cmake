@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sim.dir/src/sim/contentloader.cpp.o"
+  "CMakeFiles/sim.dir/src/sim/contentloader.cpp.o.d"
   "CMakeFiles/sim.dir/src/sim/world.cpp.o"
   "CMakeFiles/sim.dir/src/sim/world.cpp.o.d"
   "libsim.a"
