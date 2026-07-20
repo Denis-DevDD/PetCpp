@@ -127,7 +127,3 @@ The game reads commands from standard input. Supported commands include:
 - **Style:** object-oriented design with smart pointers (`shared_ptr` /
   `weak_ptr`), polymorphic cards, and a factory-based card creation system.
 
-## Notes
-
-This started as a university assignment (`a2`) and is published here as a
-personal / portfolio project.
