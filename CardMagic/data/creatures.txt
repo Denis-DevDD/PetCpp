@@ -1,0 +1,33 @@
+1;AGRAT;Angry Rat;Haste;1;1
+1;CADET;Cadet;-;2;1
+1;FARMR;Farmer;Haste;1;2
+1;SQIRL;Squirrel Soldier;First Strike;1;1
+2;FSHLD;Floating Shield;-;0;8
+2;NITMR;Nightmare;Haste;Temporary;5;1
+2;SOLDR;Soldier;-;3;4
+2;SNAKE;Snake;Venomous;2;1
+2;HWOLF;Hungry Wolf;Brutal;3;2
+2;ZOMBI;Zombie;Undying;2;2
+3;ASASN;Assassin;First Strike;5;2
+3;CVLRY;Cavalry;Haste;4;4
+3;GLDTR;Gladiator;Challenger;5;3
+3;KNGHT;Knight;Haste;4;6
+3;VAMPS;Vampire Soldier;Lifesteal;4;3
+4;ALCHM;Alchemist;Venomous;4;6
+4;TUTOR;Evil Tutor;Challenger;Lifesteal;5;4
+4;TURTL;Giant Turtle;-;3;11
+4;NINJA;Ninja;First Strike;Haste;6;4
+5;GUARD;Eternal Guardian;Haste;Undying;5;5
+5;RAPTR;Raptor;Brutal;First Strike;7;4
+5;WRLCK;Warlock;Lifesteal;Venomous;4;7
+6;GOLEM;Golem;Regenerate;5;12
+6;HYDRA;Hydra;Regenerate;Undying;7;6
+6;KINGV;King V;Challenger;Haste;6;11
+7;LLICH;Likeable Lich;Lifesteal;Undying;9;6
+7;T_REX;T-Rex;Brutal;13;9
+7;VAMPL;Vampire Lord;Challenger;Lifesteal;10;7
+8;ANGEL;Angel;Haste;9;14
+8;DRAGN;Dragon;Brutal;Challenger;13;10
+8;SLAYR;Slayer;First Strike;Haste;15;6
+9;D_GOD;Demi-God;Regenerate;Undying;15;15
+9;DEVIL;Devil;Brutal;First Strike;16;7

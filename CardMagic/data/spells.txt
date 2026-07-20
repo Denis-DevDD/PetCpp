@@ -1,0 +1,16 @@
+3;BTLCY;Battle Cry
+4;METOR;Meteor
+5;FIRBL;Fireball
+XX;CLONE;Clone
+XX;CURSE;Death Curse
+1;SHOCK;Shock
+2;MOBLZ;Mobilize
+2;RRUSH;Rapid Rush
+2;SHILD;Shield
+3;AMPUT;Amputate
+3;FINAL;Final Act
+3;LYLTY;Loyalty
+4;ZMBFY;Zombify
+5;BLOOD;Bloodlust
+XX;MEMRY;Heroic Memory
+2;REVIV;Revive

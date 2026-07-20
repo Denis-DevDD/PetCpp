@@ -1,0 +1,7 @@
+/.idea
+a2
+valgrind_logs/
+testreport.html
+build/
+.vscode
+/saves/*.txt
