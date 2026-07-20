@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/mnt/c/Users/denis/Desktop/PetCpp/NavMesh/build-wsl/_deps/raylib-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
